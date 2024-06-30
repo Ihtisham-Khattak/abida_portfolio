@@ -37,7 +37,7 @@ const Contact = () => {
               Abida Gul Sharjah, UAE
             </span>
             <span className="flex items-center justify-center gap-x-2">
-              <MdOutlinePhoneEnabled /> +971-509335396
+              <MdOutlinePhoneEnabled /> +971 56 383 6371
             </span>
             <span className="flex items-center justify-center gap-x-2">
               <MdOutlineMailOutline /> abidagul93@example.com
