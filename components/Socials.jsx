@@ -7,14 +7,11 @@ import {
   RiDribbbleLine,
   RiGithubLine,
   RiPinterestLine,
+  RiLinkedinLine,
 } from "react-icons/ri";
 
 export const socialData = [
-  {
-    name: "YouTube",
-    link: "https://youtube.com",
-    Icon: RiYoutubeLine,
-  },
+  
   {
     name: "Instagram",
     link: "https://instagram.com",
@@ -26,19 +23,9 @@ export const socialData = [
     Icon: RiFacebookLine,
   },
   {
-    name: "Dribbble",
-    link: "https://dribbble.com",
-    Icon: RiDribbbleLine,
-  },
-  {
-    name: "Pinterest",
-    link: "https://pinterest.com",
-    Icon: RiPinterestLine,
-  },
-  {
-    name: "Github",
-    link: "https://github.com/sanidhyy/modern-portfolio",
-    Icon: RiGithubLine,
+    name: "LinkedIn",
+    link: "https://linkedin.com",
+    Icon: RiLinkedinLine,
   },
 ];
 
@@ -53,7 +40,7 @@ const Socials = () => {
           target="_blank"
           rel="noreferrer noopener"
           className={`${
-            social.name === "Github"
+            social.name === "LinkedIn"
               ? "bg-accent rounded-full p-[5px] hover:text-white"
               : "hover:text-accent"
           } transition-all duration-300`}

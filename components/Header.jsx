@@ -11,7 +11,7 @@ const Header = () => {
           {/* logo */}
           <Link href="/">
             <Image
-              src="/logo.svg"
+              src="/abida.svg"
               alt="logo"
               width={220}
               height={48}
@@ -20,7 +20,7 @@ const Header = () => {
           </Link>
 
           {/* socials */}
-          <Socials />
+          {/* <Socials /> */}
         </div>
       </div>
     </header>

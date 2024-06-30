@@ -13,7 +13,7 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
+          title: "Sharjah International Charity",
           path: "/thumb1.jpg",
           link: "http://example.com",
         },

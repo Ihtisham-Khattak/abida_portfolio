@@ -5,8 +5,11 @@ import {
   FaCss3,
   FaFigma,
   FaHtml5,
+  FaJira,
   FaJs,
   FaReact,
+  FaSlack,
+  FaTrello,
   FaWordpress,
 } from "react-icons/fa";
 import {
@@ -27,15 +30,7 @@ export const aboutData = [
     info: [
       {
         title: "Web Development",
-        icons: [
-          FaHtml5,
-          FaCss3,
-          FaJs,
-          FaReact,
-          SiNextdotjs,
-          SiFramer,
-          FaWordpress,
-        ],
+        icons: [FaHtml5, FaCss3, FaTrello, FaJira, FaSlack],
       },
       {
         title: "UI/UX Design",
@@ -47,12 +42,8 @@ export const aboutData = [
     title: "awards",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "Certified Manual Tester - Udemy",
+        stage: " 2020",
       },
     ],
   },
@@ -60,33 +51,19 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Sharjah ERP",
+        role: "Manual Tester",
+        tools: "Jira, Postman, JMeter",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Travelix",
+        role: "Manual Tester",
+        tools: "Jira, Postman, JMeter",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
-      },
-    ],
-  },
-  {
-    title: "credentials",
-    info: [
-      {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
-      },
-      {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "INMA",
+        role: "Manual Tester",
+        tools: "Jira, Postman, JMeter",
       },
     ],
   },
@@ -217,7 +194,8 @@ const About = () => {
                 {/* title */}
                 <div className="font-light mb-2 md:mb-0">{item.title}</div>
                 <div className="hidden md:flex">-</div>
-                <div>{item.stage}</div>
+                <div>{item.role}</div>
+                <div>{item.tools}</div>
 
                 <div className="flex gap-x-4">
                   {/* icons */}
