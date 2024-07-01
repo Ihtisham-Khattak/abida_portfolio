@@ -13,21 +13,35 @@ const testimonialData = [
     name: "Anne Smith",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Excellent attention to detail. Caught issues we missed!",
   },
   {
     image: "/t-avt-2.png",
     name: "Jane Doe",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Consistently thorough and reliable in all tests conducted.",
   },
   {
     image: "/t-avt-3.png",
     name: "Jhon Doe",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Saved us time and money by identifying critical bugs early.",
+  },
+  {
+    image: "/t-avt-3.png",
+    name: "Jhon Doe",
+    position: "Customer",
+    message:
+      "Exceptional understanding of our system and its requirements.",
+  },
+  {
+    image: "/t-avt-3.png",
+    name: "Jhon Doe",
+    position: "Customer",
+    message:
+      "Prompt and effective communication throughout the testing process.",
   },
 ];
 

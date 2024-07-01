@@ -16,28 +16,21 @@ import "swiper/css/pagination";
 const serviceData = [
   {
     Icon: RxCrop,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Comprehensive Functional Testing",
+    description:
+      "Conduct thorough functional testing to ensure software features work as intended. Create test plans and cases based on requirements. Identify and document defects and inconsistencies, and collaborate with developers for resolution.",
   },
   {
     Icon: RxPencil2,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "User Interface (UI) Testing",
+    description:
+      "Conduct UI testing to ensure a user-friendly, consistent, and visually appealing interface. Check alignment, color schemes, font sizes, and responsiveness across devices and browsers. Report issues and suggest enhancements to improve user experience.",
   },
   {
     Icon: RxDesktop,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    Icon: RxReader,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    Icon: RxRocket,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Regression Testing",
+    description:
+      "Execute regression testing to ensure new code changes don't affect existing functionalities. Update regression test suites to cover critical aspects of the application. Provide detailed reports on outcomes, highlighting new defects and verifying fixes.",
   },
 ];
 
@@ -50,7 +43,11 @@ const ServiceSlider = () => {
           spaceBetween: 15,
         },
         640: {
-          slidesPerView: 3,
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+        768: {
+          slidesPerView: 2,
           spaceBetween: 15,
         },
       }}
