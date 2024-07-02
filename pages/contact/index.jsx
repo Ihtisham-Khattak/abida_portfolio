@@ -7,6 +7,7 @@ import {
 } from "react-icons/md";
 
 import { fadeIn } from "../../variants";
+import Socials from "../../components/Socials";
 
 const Contact = () => {
   return (
@@ -43,6 +44,8 @@ const Contact = () => {
               <MdOutlineMailOutline /> abidagul93@example.com
             </span>
           </motion.h1>
+
+          <Socials/>
         </div>
       </div>
     </div>
