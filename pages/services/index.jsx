@@ -12,7 +12,7 @@ const Services = () => {
     <div className="h-full bg-primary/30 py-36 flex items-center">
       <Circles />
       <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row gap-x-8">
+        <div className="flex flex-col xl:flex-col gap-x-8">
           {/* text */}
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
             <motion.h2
@@ -24,7 +24,7 @@ const Services = () => {
             >
               My services <span className="text-accent">.</span>
             </motion.h2>
-            <motion.p
+            {/* <motion.p
               variants={fadeIn("up", 0.4)}
               initial="hidden"
               animate="show"
@@ -33,7 +33,7 @@ const Services = () => {
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
               tempora eligendi, quisquam tempore sint reiciendis.
-            </motion.p>
+            </motion.p> */}
           </div>
 
           {/* slider */}
@@ -42,7 +42,7 @@ const Services = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full xl:max-w-[65%]"
+            className="w-full xl:max-w-[100%]"
           >
             <ServiceSlider />
           </motion.div>

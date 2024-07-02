@@ -47,7 +47,7 @@ const ServiceSlider = () => {
           spaceBetween: 15,
         },
         768: {
-          slidesPerView: 2,
+          slidesPerView: 3,
           spaceBetween: 15,
         },
       }}
@@ -70,14 +70,6 @@ const ServiceSlider = () => {
             <div className="mb-8">
               <div className="mb-2 text-lg">{item.title}</div>
               <p className="max-w-[350px] leading-normal">{item.description}</p>
-            </div>
-
-            {/* arrow */}
-            <div className="text-3xl">
-              <RxArrowTopRight
-                className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300"
-                aria-hidden
-              />
             </div>
           </div>
         </SwiperSlide>
