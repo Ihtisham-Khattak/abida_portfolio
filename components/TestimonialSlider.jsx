@@ -12,29 +12,37 @@ const testimonialData = [
     image: "/t-avt-1.png",
     name: "Anne Smith",
     position: "Customer",
-    message:
-      "Excellent attention to detail. Caught issues we missed!",
+    message: "Excellent attention to detail. Caught issues we missed!",
   },
   {
     image: "/t-avt-2.png",
     name: "Jane Doe",
     position: "Customer",
-    message:
-      "Consistently thorough and reliable in all tests conducted.",
+    message: "Consistently thorough and reliable in all tests conducted.",
   },
   {
     image: "/t-avt-3.png",
     name: "Jhon Doe",
     position: "Customer",
-    message:
-      "Saved us time and money by identifying critical bugs early.",
+    message: "Saved us time and money by identifying critical bugs early.",
+  },
+  {
+    image: "/t-avt-2.png",
+    name: "Jane Doe",
+    position: "Customer",
+    message: "Consistently thorough and reliable in all tests conducted.",
   },
   {
     image: "/t-avt-3.png",
     name: "Jhon Doe",
     position: "Customer",
-    message:
-      "Exceptional understanding of our system and its requirements.",
+    message: "Exceptional understanding of our system and its requirements.",
+  },
+  {
+    image: "/t-avt-2.png",
+    name: "Jane Doe",
+    position: "Customer",
+    message: "Consistently thorough and reliable in all tests conducted.",
   },
   {
     image: "/t-avt-3.png",
@@ -42,6 +50,38 @@ const testimonialData = [
     position: "Customer",
     message:
       "Prompt and effective communication throughout the testing process.",
+  },
+  {
+    image: "/t-avt-2.png",
+    name: "Jane Doe",
+    position: "Customer",
+    message:
+      "Improved our product quality significantly with comprehensive testing.",
+  },
+  {
+    image: "/t-avt-3.png",
+    name: "Jhon Doe",
+    position: "Customer",
+    message: "Professional and dedicated, highly recommend for manual testing.",
+  },
+  {
+    image: "/t-avt-2.png",
+    name: "Jane Doe",
+    position: "Customer",
+    message: "Methodical approach led to uncovering hidden defects.",
+  },
+  {
+    image: "/t-avt-3.png",
+    name: "Jhon Doe",
+    position: "Customer",
+    message: "Met deadlines consistently, ensuring smooth project flow.",
+  },
+  {
+    image: "/t-avt-2.png",
+    name: "Jane Doe",
+    position: "Customer",
+    message:
+      "Provided valuable insights that enhanced our application's performance.",
   },
 ];
 
