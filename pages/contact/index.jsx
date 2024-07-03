@@ -45,7 +45,7 @@ const Contact = () => {
             </span>
           </motion.h1>
 
-          <Socials/>
+          <Socials className="py-10" />
         </div>
       </div>
     </div>
